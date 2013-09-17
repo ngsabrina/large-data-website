@@ -38,8 +38,8 @@ The website's target audience are people who are interested in learning more abo
 ## To-do
 
 - [x] Research
-- [ ] Content organization
-- [ ] Tasks & priorities
+- [x] Content organization
+- [x] Tasks & priorities
 - [ ] Prototype
 - [ ] Style exploration
 - [ ] Writing exploration
