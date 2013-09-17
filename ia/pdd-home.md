@@ -6,6 +6,7 @@
 - Primary Navigation
 - Overview of what is a jellyfish
 - Search
+- Spotlight of cullinary uses of jellyfish
 
 ## 2. Medium
 
