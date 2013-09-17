@@ -31,11 +31,11 @@ The card sort was conducted by Sabrina Ng on Tuesday September 10, 2013 between 
 
 ## Card sort results
 
-![Card sort 1 results](card-sort-1.jpg)
+![Card sort 1 results](card-sort-1.JPG)
 
 *Card sort 1 by Laura Harvey*
 
-![Card sort 2 results](card-sort-2.jpg)
+![Card sort 2 results](card-sort-2.JPG)
 
 *Card sort 2 by Stephanie Csanky*
 
