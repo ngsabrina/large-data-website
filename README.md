@@ -40,11 +40,11 @@ The website's target audience are people who are interested in learning more abo
 - [x] Research
 - [x] Content organization
 - [x] Tasks & priorities
-- [ ] Prototype
-- [ ] Style exploration
-- [ ] Writing exploration
+- [x] Prototype
+- [x] Style exploration
+- [x] Writing exploration
 - [ ] Component guide
-- [ ] Homepage design
+- [x] Homepage design
 - [ ] Inside pages
 - [ ] Comments
 - [ ] Categories
