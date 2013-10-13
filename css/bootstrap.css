@@ -4917,7 +4917,7 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-  padding: 100px;
+  padding: 20px;
   margin-bottom: 30px;
   font-size: 14px;
   font-weight: 200;
@@ -6802,4 +6802,8 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+.flex-img {
+	display: block;
+	width: 100%;
 }
