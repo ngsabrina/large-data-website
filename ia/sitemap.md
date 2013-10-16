@@ -1,8 +1,4 @@
 # Jellyfish
-- Home
-- About
-	- Sabrina
-- Contact
 
 ---
 
