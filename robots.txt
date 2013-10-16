@@ -1,4 +1,4 @@
-Sitemap: https://github.com/ngsabrina/large-data-website/sitemap.xml/
+Sitemap: ngsabrina.github.io/large-data-website/sitemap.xml/
 
 User-Agent: *
 Disallow: 
