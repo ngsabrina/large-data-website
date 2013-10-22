@@ -55,16 +55,23 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-           <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/index.html">What's A Jellyfish</a></li>
+		  
+		   <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">What's A Jelly?<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+			  <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/index.html">What's A Jellyfish</a></li>
+                <li class="{% if page.url == '/culinary.html' %}active{% endif %}"><a href="{{site.baseurl}}/culinary.html">Culinary Uses</a></li>
+              </ul>
+            </li>
             <li class="{% if page.url == '/types.html' %}active{% endif %}"><a href="{{site.baseurl}}/types.html">Jellyfish Types</a></li>
 			
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specific Breeds <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="{{site.baseurl}}/purple-striped.html">Purple Striped Jelly</a></li>
-                <li><a href="{{site.baseurl}}/moon.html">Moon Jelly</a></li>
-                <li><a href="{{site.baseurl}}/white-spotted.html">White Spotted Jelly</a></li>
-				  <li><a href="{{site.baseurl}}/freshwater.html">Freshwater Jelly</a></li>
+                	<li class="{% if page.url == '/purple-striped.html' %}active{% endif %}"><a href="{{site.baseurl}}/purple-striped.html">Purple Striped Jelly</a></li>
+					 <li class="{% if page.url == '/moon.html' %}active{% endif %}"><a href="{{site.baseurl}}/moon.html">Moon Jelly</a></li>                
+ 					 <li class="{% if page.url == '/white-spotted.html' %}active{% endif %}"><a href="{{site.baseurl}}/white-spotted.html">White Spotted Jelly</a></li>
+					  <li class="{% if page.url == '/freshwater.html' %}active{% endif %}"><a href="{{site.baseurl}}/freshwater.html">Freshwater Jelly</a></li>
               </ul>
             </li>
 			
