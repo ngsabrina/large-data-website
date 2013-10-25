@@ -1998,7 +1998,6 @@ textarea.input-lg {
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 4px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -2014,7 +2013,7 @@ textarea.input-lg {
 
 .btn:hover,
 .btn:focus {
-  color: #333333;
+  color: #C66668;
   text-decoration: none;
 }
 
@@ -2038,9 +2037,10 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
+  	background-color: #33C;
+	background-image: linear-gradient(to bottom, #33c, #336);
+	color: #fff;
+	text-decoration: none;
 }
 
 .btn-default:hover,
@@ -2048,7 +2048,7 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  color: #333333;
+  color: #FFFFFF;
   background-color: #ebebeb;
   border-color: #adadad;
 }
