@@ -506,6 +506,7 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
+  color:#33c;
 }
 
 h3,
@@ -4923,12 +4924,12 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #E8F8FF;
 }
 
 .jumbotron h1 {
   line-height: 1;
-  color: inherit;
+  color: #33c;
 }
 
 .jumbotron p {
@@ -6803,7 +6804,14 @@ td.visible-print {
     display: none !important;
   }
 }
+
 .flex-img {
 	display: block;
 	width: 100%;
 }
+
+.logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
