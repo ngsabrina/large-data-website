@@ -340,6 +340,7 @@ a:focus {
   outline-offset: -2px;
 }
 
+
 img {
   vertical-align: middle;
 }
@@ -6815,3 +6816,45 @@ td.visible-print {
     margin-left: auto;
     margin-right: auto
 	}
+
+
+.skiplinks {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	list-style-type: none;
+	font-size: 1.25rem;
+	z-index: 3000;
+	font-weight: bold;
+	width: 100%;
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0.5em 0.75em;
+	background-color: #000;
+	color: #FFF;
+	text-decoration: none;
+	position: absolute;
+	top: -10em;
+}
+
+.skiplinks a:focus {
+	top: 0;
+}
+
+a,
+a:link,
+a:visited {
+	outline: none; /*Removes the keyboard selection highlight */
+}
+
+a:hover,
+a:active {
+	outline:none;
+}
+
+a:focus {
+	outline: 2px solid #000;
+}

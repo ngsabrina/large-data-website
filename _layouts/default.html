@@ -43,7 +43,14 @@
 
   </head>
 
-  <body>
+  <body id="top">
+  
+  <ul class="skiplinks">
+	<li><a href="#main">Skip to Primary Content</a></li>
+	<li><a href="#complementary">Skip to Secondary Content</a></li>
+	<li><a href="#navigation">Skip to Navigation</a></li>
+</ul>
+		<nav role="navigation" id="navigation">
 
 	   <div class="navbar navbar-inverse navbar-fixed-top">
 
@@ -87,13 +94,14 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
+</nav>
 	{{content}}
 	
   <div class="footer">
  
   	<a href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/img/jelly-logo.svg" class="logo" alt="jellyfish logo"></a>
-        <p>&copy; Jellyfish 2013</p>
+      <p>&copy; Jellyfish 2013</p>
+		<a href="#top">Top</a>
       </div>
 
     </div> <!-- /container -->
