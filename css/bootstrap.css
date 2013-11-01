@@ -6814,8 +6814,22 @@ td.visible-print {
 .logo {
 	display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 	}
+	
+.danger-level {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:50%;
+	}
+
+
+.dangerous-img {
+	width:30%;
+	display:inline-block;
+	}
+
 
 
 .skiplinks {
